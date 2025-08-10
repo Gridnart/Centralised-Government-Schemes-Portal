@@ -1,23 +1,129 @@
-# Centralised-Government-Schemes-Portal
-A Website Portal for the government schemes provided by the Central Government as well as the State Government. The system provides a centralized platform for probing all the schemes provided by the Central and State Government. Schemes related to Education and Learning, Health and Wellness, Electricity, Water and Local services, Money and Taxes, Jobs, Justice, Law and Grievances, Travel and Tourism, Business and Self-employed, Births, Deaths, Marriages and Child care, Pension and Benefits, Transport and Infrastructure, Citizenship, Visas and Passports, Agriculture, Rural and Environment, Science, IT and Communications.
 
-Features:
+# 🧠 Breast Cancer Classifier (PyTorch)
 
-* Website provides digital locker where in users can store their confidential documents securely.
+----------
 
-* Grievances forum where in users can communicate and help other users to solve their issues.
+## 📜 Project Overview
 
-* Search and view various government schemes and also read the details about the schemes.
+A simple machine learning project: a **single-layer neural network** for classifying breast cancer from scratch using **PyTorch**.  
+Covers **model implementation**, **training**, and **evaluation**.
 
-* Login and Signup page for users,also the user credentials are encrypted for data security.
+----------
 
+## 🔗 Link
 
-### Contributors
+📓 **Colab Notebook:**  
+[](https://colab.research.google.com/gist/monarchdev14/17a5254298d302a9be7328054ea2bd56/breast_cance.ipynb)
 
-- [Neel Shah](https://github.com/deadpanther)
-- [Raj Sanghavi](https://github.com/rajs09)
-- [Punit Patel](https://github.com/punit9878)
-- [Nitin Bhansali](https://github.com/nitin0711)
+----------
 
+## 📊 Dataset
 
+-   **Source:** _Breast Cancer Wisconsin (Diagnostic) Data Set_ 🧬 _(link in notebook)_
+    
 
+----------
+
+## ⚠️ Important
+
+> 📝 **Note:**
+> 
+> -   This repository contains the training script & model architecture only.
+>     
+> -   For **visualization** or **intermediate outputs**, run the Colab notebook.
+>     
+> -   Accuracy may vary depending on data splits & random initialization.
+>     
+
+----------
+
+## 🛠️ Prerequisites
+
+-   🐍 Python 3.x
+    
+-   🔥 `torch` (PyTorch)
+    
+-   📊 `sklearn` (data preprocessing)
+    
+-   🧩 Basic familiarity with PyTorch: model classes, tensor operations, training loops
+    
+
+----------
+
+## 🏗️ Model Architecture & Training Setup
+
+⚙ Component
+
+📄 Details
+
+🧠 **Architecture**
+
+Single-layer neural network
+
+📥 **Input Size**
+
+Equal to number of features
+
+🔌 **Activation**
+
+Sigmoid (output layer)
+
+🎯 **Loss Function**
+
+BCELoss
+
+⚡ **Optimizer**
+
+SGD (`torch.optim.SGD`)
+
+----------
+
+## 📈 Results
+
+-   🏁 **Initial Run Accuracy:** 62%
+    
+-   🏆 **Final Accuracy:** 62% _(no improvement yet)_
+    
+
+----------
+
+## 🎓 What I Learned
+
+-   🏗 **PyTorch Fundamentals:** Model structure, tensor operations, training loop
+    
+-   🧹 **Data Preprocessing:** Loading, scaling, splitting, batching
+    
+-   📊 **Evaluation:** Binary classification metrics & result interpretation
+    
+
+----------
+
+## 🚀 Next Steps
+
+-   🔧 Improve model (add layers, tune learning rate)
+    
+-   📊 Add visualizations (loss curves, feature importance)
+    
+-   🛡 Try regularization or dropout
+    
+-   🔍 Compare with other models
+    
+
+----------
+
+## 🙏 Acknowledgments
+
+  
+Special thanks to **Introduction to PyTorch by CampusX** for inspiration & guidance 💡
+
+----------
+
+## 💻 Usage Example
+
+bash
+
+CopyEdit
+
+`git clone <your-repo-url> cd your-repo
+pip install torch sklearn
+python train.py # or run the Colab notebook`
